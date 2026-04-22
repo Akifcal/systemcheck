@@ -31,21 +31,22 @@ irm "https://raw.githubusercontent.com/Akifcal/systemcheck/main/systemcheck-dc.p
 ```
 
 
-🔍 Features & Audit Details
-🛠 General Audit (both scripts)
-Build Info: OS Caption, Version, Build Number and CSName via CIM Instance.
-Network: Full ipconfig /all output and current LOGONSERVER check.
-Computerinfo: Detailed hardware and system information.
-Storage: Drive letters, Filesystem, Size (GB), Free Space (GB) and Free Percentage.
-Windows Updates: List of installed Hotfixes, sorted by installation date.
-Security: Firewall profile status and Network Category.
-Roles & Features: List of all currently installed Windows Features.
+## 🔍 Features & Audit Details
 
-🛡 DC Specific Audit (Additional)
-FSMO Roles: Displays all 5 Operations Master roles via netdom.
-AD Topology: Lists all Domain Controllers across all Sites with IP and OS info.
-Health Check: Integrated dcdiag in both Verbose and Quiet mode.
-Database Size: Real-time calculation of the NTDS database file size (MB).
+### 🛠 General Audit (both scripts)
+* Build Info: OS Caption, Version, Build Number and CSName via CIM Instance.
+* Network: Full ipconfig /all output and current LOGONSERVER check.
+* Computerinfo: Detailed hardware and system information.
+* Storage: Drive letters, Filesystem, Size (GB), Free Space (GB) and Free Percentage.
+* Windows Updates: List of installed Hotfixes, sorted by installation date.
+* Security: Firewall profile status and Network Category.
+* Roles & Features: List of all currently installed Windows Features.
+
+### 🛡 DC Specific Audit (Additional)
+* FSMO Roles: Displays all 5 Operations Master roles via netdom.
+* AD Topology: Lists all Domain Controllers across all Sites with IP and OS info.
+* Health Check: Integrated dcdiag in both Verbose and Quiet mode.
+* Database Size: Real-time calculation of the NTDS database file size (MB).
 
 ⚠️ Disclaimer
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. See the LICENSE for more details.
